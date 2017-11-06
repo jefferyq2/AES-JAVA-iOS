@@ -11,7 +11,6 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 
 public class BouncyCipher {
-  //@formatter:off
   final static byte[] SECURE_KEY_IN_BYTES_OMG = new byte[] {
     //@formatter:off
     0x65, 0x69, 0x67, 0x68,
@@ -20,8 +19,7 @@ public class BouncyCipher {
     0x74, 0x65, 0x72, 0x73,
     0x2e
     //@formatter:on
-};
-  //@formatter:on
+  };
   public static final String UTF_8 = "UTF-8";
   private final String password;
 
